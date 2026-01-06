@@ -3,7 +3,7 @@ layout: post
 title: "Voice AI Gazette - Issue #1: The Breakthrough Year – 2025 in Review & An Exciting Outlook for 2026"
 subtitle: "Curating the future of voice-powered innovation"
 date: 2026-01-06 00:00:00 -0400
-background: '/assets/img/bg-index.jpg'
+background: '/assets/img/issue-1-hero.png'
 ---
 
 ### A Note from the Editor

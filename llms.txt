@@ -1,0 +1,11 @@
+# Voice AI Gazette
+
+A newsletter dedicated to the trends, breakthroughs, and people shaping the voice interface revolution. Curated by Saurav Kumar.
+
+## Core Content
+- [Newsletter Issues](https://voicesdk.github.io/archives)
+- [About the Editor](https://voicesdk.github.io/about)
+- [Consulting Services](https://sauravtom.github.io)
+
+## Recent Updates
+- [Issue #1: The Breakthrough Year – 2025 in Review](https://voicesdk.github.io/2026-01-06-voice-ai-gazette-issue-1)

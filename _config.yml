@@ -22,6 +22,7 @@ author: Saurav Kumar
 
 navbar-links:
   Home: "/"
+  About: "/about"
   Tags: "/tags"
   Archives: "/archives"
   Categories: "/categories"
@@ -52,9 +53,9 @@ navbar-links:
 social-network-links:
   email: "saurav@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: sauravtom
-  twitter: sauravtom
-  linkedin: sauravtom
+  github: xAGI-labs
+  twitter: sauraav5
+  linkedin: sauraav007
 #  facebook: deanattali
 #  patreon: DeanAttali
 #  youtube: "@daattali"

@@ -9,3 +9,4 @@ A newsletter dedicated to the trends, breakthroughs, and people shaping the voic
 
 ## Recent Updates
 - [Issue #1: The Breakthrough Year – 2025 in Review](https://voicesdk.github.io/2026-01-06-voice-ai-gazette-issue-1)
+- [Issue #2: Key Updates in Voice AI](https://voicesdk.github.io/2026-01-07-voice-ai-gazette-issue-2)

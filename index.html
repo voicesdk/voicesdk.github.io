@@ -1,5 +1,175 @@
----
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VoiceSDK — Fast, Reliable Voice Agents</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+  <!-- NAV -->
+  <header class="flex justify-between items-center px-8 py-6 border-b border-gray-800">
+    <h1 class="text-xl font-semibold">VoiceSDK</h1>
+    <nav class="space-x-6 text-sm text-gray-400">
+      <a href="#">Docs</a>
+      <a href="#">Pricing</a>
+      <a href="#">GitHub</a>
+      <a href="#" class="text-white">Get Started</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="text-center py-24 px-6">
+    <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+      Fast, reliable<br/>
+      voice agents that actually work
+    </h1>
+
+    <p class="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
+      Stop fighting hallucinations, latency, and broken call flows.
+      VoiceSDK gives you production-grade voice agents that run continuously, execute reliably, and scale effortlessly.
+    </p>
+
+    <div class="mt-10 flex justify-center gap-4">
+      <button class="bg-white text-black px-6 py-3 rounded-lg font-medium">
+        Get started
+      </button>
+      <button class="border border-gray-600 px-6 py-3 rounded-lg">
+        View docs
+      </button>
+    </div>
+
+    <p class="mt-4 text-sm text-gray-500">
+      Deploy your first agent in minutes
+    </p>
+  </section>
+
+  <!-- SOCIAL PROOF / PROBLEM -->
+  <section class="py-16 px-6 border-t border-gray-800 text-center">
+    <p class="text-gray-400 max-w-3xl mx-auto text-lg">
+      Most voice AI systems mishear users, break mid-call, or fail to follow instructions.
+      <span class="text-white font-medium">VoiceSDK is built differently.</span>
+    </p>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+
+    <div>
+      <h3 class="text-xl font-semibold mb-3">⚡ Ultra-low latency</h3>
+      <p class="text-gray-400">
+        Real-time conversations that feel human. No awkward pauses. No lag.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold mb-3">🧠 Reliable execution</h3>
+      <p class="text-gray-400">
+        Agents follow instructions consistently — even across long, multi-step conversations.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold mb-3">🔁 Always-on workflows</h3>
+      <p class="text-gray-400">
+        Persistent agents that don’t just respond — they complete tasks and improve over time.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- PRODUCT DEMO / UI MOCK -->
+  <section class="py-20 px-6 border-t border-gray-800">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-6">
+        Observe every call. Improve every interaction.
+      </h2>
+
+      <div class="bg-gray-900 p-6 rounded-xl text-sm text-gray-300">
+<pre>
+agent: Hello, how can I help you today?
+user: I want to reschedule my appointment
+agent: Sure — what date works for you?
+user: Next Tuesday
+agent: Done. You're scheduled for Tuesday at 3 PM.
+
+✓ Task completed
+✓ No hallucinations
+✓ No retries needed
+</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRATIONS -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-10">
+      Connect your stack instantly
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-10 text-gray-400">
+
+      <div>
+        <h4 class="text-white font-medium mb-2">Bring your own LLM</h4>
+        <p>Use OpenAI, Claude, Gemini, or your own model.</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-2">Telephony ready</h4>
+        <p>Works with Twilio, SIP, and custom VoIP setups.</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-2">API-first</h4>
+        <p>Plug into your backend with simple APIs.</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-2">No glue code</h4>
+        <p>Skip the orchestration headaches. We handle the voice stack.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DIFFERENTIATOR -->
+  <section class="py-20 px-6 border-t border-gray-800 text-center">
+    <h2 class="text-3xl font-semibold mb-6">
+      Built for real production use
+    </h2>
+
+    <p class="text-gray-400 max-w-3xl mx-auto">
+      Not a demo. Not a toy.
+      VoiceSDK is designed for teams shipping real voice products — customer support, healthcare workflows, outbound agents, and more.
+    </p>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6">
+      Start building voice agents today
+    </h2>
+
+    <p class="text-gray-400 mb-8">
+      Go from idea → live agent in minutes.
+    </p>
+
+    <button class="bg-white text-black px-8 py-4 rounded-lg font-medium">
+      Get started for free
+    </button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-800 px-8 py-10 text-gray-500 text-sm flex justify-between">
+    <p>© 2026 VoiceSDK</p>
+    <div class="space-x-4">
+      <a href="#">Docs</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </footer>
+
+</body>
+</html>
